@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BACE82811A379FC300FBDE10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE82801A379FC300FBDE10 /* AppDelegate.swift */; };
+		BACE82831A379FC300FBDE10 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BACE82821A379FC300FBDE10 /* GameScene.sks */; };
+		BACE82851A379FC300FBDE10 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE82841A379FC300FBDE10 /* GameScene.swift */; };
+		BACE82871A379FC300FBDE10 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE82861A379FC300FBDE10 /* GameViewController.swift */; };
+		BACE828A1A379FC300FBDE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACE82881A379FC300FBDE10 /* Main.storyboard */; };
+		BACE828C1A379FC300FBDE10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACE828B1A379FC300FBDE10 /* Images.xcassets */; };
+		BACE828F1A379FC300FBDE10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACE828D1A379FC300FBDE10 /* LaunchScreen.xib */; };
+		BACE829B1A379FC300FBDE10 /* SmocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE829A1A379FC300FBDE10 /* SmocksTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BACE82951A379FC300FBDE10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BACE82731A379FC300FBDE10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BACE827A1A379FC300FBDE10;
+			remoteInfo = Smocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BACE827B1A379FC300FBDE10 /* Smocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACE827F1A379FC300FBDE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACE82801A379FC300FBDE10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BACE82821A379FC300FBDE10 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BACE82841A379FC300FBDE10 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BACE82861A379FC300FBDE10 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BACE82891A379FC300FBDE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BACE828B1A379FC300FBDE10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BACE828E1A379FC300FBDE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BACE82941A379FC300FBDE10 /* SmocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACE82991A379FC300FBDE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACE829A1A379FC300FBDE10 /* SmocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmocksTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BACE82781A379FC300FBDE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACE82911A379FC300FBDE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BACE82721A379FC300FBDE10 = {
+			isa = PBXGroup;
+			children = (
+				BACE827D1A379FC300FBDE10 /* Smocks */,
+				BACE82971A379FC300FBDE10 /* SmocksTests */,
+				BACE827C1A379FC300FBDE10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BACE827C1A379FC300FBDE10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BACE827B1A379FC300FBDE10 /* Smocks.app */,
+				BACE82941A379FC300FBDE10 /* SmocksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BACE827D1A379FC300FBDE10 /* Smocks */ = {
+			isa = PBXGroup;
+			children = (
+				BACE82801A379FC300FBDE10 /* AppDelegate.swift */,
+				BACE82821A379FC300FBDE10 /* GameScene.sks */,
+				BACE82841A379FC300FBDE10 /* GameScene.swift */,
+				BACE82861A379FC300FBDE10 /* GameViewController.swift */,
+				BACE82881A379FC300FBDE10 /* Main.storyboard */,
+				BACE828B1A379FC300FBDE10 /* Images.xcassets */,
+				BACE828D1A379FC300FBDE10 /* LaunchScreen.xib */,
+				BACE827E1A379FC300FBDE10 /* Supporting Files */,
+			);
+			path = Smocks;
+			sourceTree = "<group>";
+		};
+		BACE827E1A379FC300FBDE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BACE827F1A379FC300FBDE10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BACE82971A379FC300FBDE10 /* SmocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				BACE829A1A379FC300FBDE10 /* SmocksTests.swift */,
+				BACE82981A379FC300FBDE10 /* Supporting Files */,
+			);
+			path = SmocksTests;
+			sourceTree = "<group>";
+		};
+		BACE82981A379FC300FBDE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BACE82991A379FC300FBDE10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BACE827A1A379FC300FBDE10 /* Smocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACE829E1A379FC300FBDE10 /* Build configuration list for PBXNativeTarget "Smocks" */;
+			buildPhases = (
+				BACE82771A379FC300FBDE10 /* Sources */,
+				BACE82781A379FC300FBDE10 /* Frameworks */,
+				BACE82791A379FC300FBDE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smocks;
+			productName = Smocks;
+			productReference = BACE827B1A379FC300FBDE10 /* Smocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BACE82931A379FC300FBDE10 /* SmocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACE82A11A379FC300FBDE10 /* Build configuration list for PBXNativeTarget "SmocksTests" */;
+			buildPhases = (
+				BACE82901A379FC300FBDE10 /* Sources */,
+				BACE82911A379FC300FBDE10 /* Frameworks */,
+				BACE82921A379FC300FBDE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BACE82961A379FC300FBDE10 /* PBXTargetDependency */,
+			);
+			name = SmocksTests;
+			productName = SmocksTests;
+			productReference = BACE82941A379FC300FBDE10 /* SmocksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BACE82731A379FC300FBDE10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = geemoo;
+				TargetAttributes = {
+					BACE827A1A379FC300FBDE10 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BACE82931A379FC300FBDE10 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BACE827A1A379FC300FBDE10;
+					};
+				};
+			};
+			buildConfigurationList = BACE82761A379FC300FBDE10 /* Build configuration list for PBXProject "Smocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BACE82721A379FC300FBDE10;
+			productRefGroup = BACE827C1A379FC300FBDE10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BACE827A1A379FC300FBDE10 /* Smocks */,
+				BACE82931A379FC300FBDE10 /* SmocksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BACE82791A379FC300FBDE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACE828F1A379FC300FBDE10 /* LaunchScreen.xib in Resources */,
+				BACE828C1A379FC300FBDE10 /* Images.xcassets in Resources */,
+				BACE82831A379FC300FBDE10 /* GameScene.sks in Resources */,
+				BACE828A1A379FC300FBDE10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACE82921A379FC300FBDE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BACE82771A379FC300FBDE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACE82851A379FC300FBDE10 /* GameScene.swift in Sources */,
+				BACE82871A379FC300FBDE10 /* GameViewController.swift in Sources */,
+				BACE82811A379FC300FBDE10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BACE82901A379FC300FBDE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACE829B1A379FC300FBDE10 /* SmocksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BACE82961A379FC300FBDE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BACE827A1A379FC300FBDE10 /* Smocks */;
+			targetProxy = BACE82951A379FC300FBDE10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BACE82881A379FC300FBDE10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACE82891A379FC300FBDE10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BACE828D1A379FC300FBDE10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BACE828E1A379FC300FBDE10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BACE829C1A379FC300FBDE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BACE829D1A379FC300FBDE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BACE829F1A379FC300FBDE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BACE82A01A379FC300FBDE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smocks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BACE82A21A379FC300FBDE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmocksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smocks.app/Smocks";
+			};
+			name = Debug;
+		};
+		BACE82A31A379FC300FBDE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmocksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smocks.app/Smocks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BACE82761A379FC300FBDE10 /* Build configuration list for PBXProject "Smocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACE829C1A379FC300FBDE10 /* Debug */,
+				BACE829D1A379FC300FBDE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BACE829E1A379FC300FBDE10 /* Build configuration list for PBXNativeTarget "Smocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACE829F1A379FC300FBDE10 /* Debug */,
+				BACE82A01A379FC300FBDE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BACE82A11A379FC300FBDE10 /* Build configuration list for PBXNativeTarget "SmocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BACE82A21A379FC300FBDE10 /* Debug */,
+				BACE82A31A379FC300FBDE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BACE82731A379FC300FBDE10 /* Project object */;
+}
